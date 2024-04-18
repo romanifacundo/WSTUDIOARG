@@ -1,0 +1,28 @@
+﻿.seccion-bienvenida {
+    margin: 5rem 0 10rem 0;
+    color: white;
+}
+
+.seccion-bienvenida h1 {
+        margin-bottom: 1rem;
+}
+
+.seccion-bienvenida p {
+        font-family: sans-serif;
+        line-height: 1.5;
+        font-size: 1.25rem;
+}
+
+.cabecera {
+    font-weight: bold;
+}
+
+.habilidades ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.habilidades i {
+    color: #0d6efd;
+    font-size: 50px;
+}
