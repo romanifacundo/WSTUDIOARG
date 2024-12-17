@@ -1,25 +1,36 @@
-﻿@{
+﻿@model W_Studio_Arg.Models.ContactoViewModel
+
+@{
     ViewData["Title"] = "Contacto";
 }
 
 <div class="container">
     <h1 class="text-center">Formulario de Contacto</h1>
 
-    <form asp-controller="Home" asp-action="Contacto" class="row g-3 justify-content-center">
+    <form asp-controller="Home" asp-action="Contacto" method="post" class="row g-3 justify-content-center">
         <div class="col-md-6 mb-3">
             <label for="nombre" class="form-label">Nombre</label>
-            <input type="text" class="form-control form-control-sm" id="nombre" name="nombre" placeholder="Fulano de tal" />
+            <input type="text" class="form-control form-control-sm" asp-for="Nombre" placeholder="Fulano de tal" />
+            <span asp-validation-for="Nombre" class="text-danger"></span>
         </div>
         <div class="col-md-6 mb-3">
             <label for="email" class="form-label">Email</label>
-            <input type="email" class="form-control form-control-sm" id="email" name="email" placeholder="nombre@ejemplo.com" />
+            <input type="email" class="form-control form-control-sm" asp-for="Email" placeholder="nombre@ejemplo.com" />
+            <span asp-validation-for="Email" class="text-danger"></span>
         </div>
         <div class="col-12 mb-3">
             <label for="mensaje" class="form-label">Mensaje</label>
-            <textarea class="form-control form-control-sm" id="mensaje" name="mensaje" rows="3"></textarea>
+            <textarea class="form-control form-control-sm" asp-for="Mensaje" rows="3"></textarea>
+            <span asp-validation-for="Mensaje" class="text-danger"></span>
         </div>
         <div class="col-12 text-left">
             <button type="submit" class="btn btn-primary">Enviar</button>
         </div>
     </form>
 </div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

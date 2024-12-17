@@ -58,3 +58,39 @@ C:\Users\Facun\Proyectos\WStudioArg\W-Studio-Arg\W-Studio-Arg\obj\Debug\net6.0\r
 C:\Users\Facun\Proyectos\WStudioArg\W-Studio-Arg\W-Studio-Arg\obj\Debug\net6.0\W-Studio-Arg.pdb
 C:\Users\Facun\Proyectos\WStudioArg\W-Studio-Arg\W-Studio-Arg\obj\Debug\net6.0\W-Studio-Arg.genruntimeconfig.cache
 C:\Users\Facun\Proyectos\WStudioArg\W-Studio-Arg\W-Studio-Arg\obj\Debug\net6.0\ref\W-Studio-Arg.dll
+C:\Users\Facun\OneDrive - frsn.utn.edu.ar\Escritorio\Documentos\Proyectos\wstudioarg\W-Studio-Arg\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Facun\OneDrive - frsn.utn.edu.ar\Escritorio\Documentos\Proyectos\wstudioarg\W-Studio-Arg\bin\Debug\net6.0\appsettings.json
+C:\Users\Facun\OneDrive - frsn.utn.edu.ar\Escritorio\Documentos\Proyectos\wstudioarg\W-Studio-Arg\bin\Debug\net6.0\W-Studio-Arg.staticwebassets.runtime.json
+C:\Users\Facun\OneDrive - frsn.utn.edu.ar\Escritorio\Documentos\Proyectos\wstudioarg\W-Studio-Arg\bin\Debug\net6.0\W-Studio-Arg.exe
+C:\Users\Facun\OneDrive - frsn.utn.edu.ar\Escritorio\Documentos\Proyectos\wstudioarg\W-Studio-Arg\bin\Debug\net6.0\W-Studio-Arg.deps.json
+C:\Users\Facun\OneDrive - frsn.utn.edu.ar\Escritorio\Documentos\Proyectos\wstudioarg\W-Studio-Arg\bin\Debug\net6.0\W-Studio-Arg.runtimeconfig.json
+C:\Users\Facun\OneDrive - frsn.utn.edu.ar\Escritorio\Documentos\Proyectos\wstudioarg\W-Studio-Arg\bin\Debug\net6.0\W-Studio-Arg.dll
+C:\Users\Facun\OneDrive - frsn.utn.edu.ar\Escritorio\Documentos\Proyectos\wstudioarg\W-Studio-Arg\bin\Debug\net6.0\W-Studio-Arg.pdb
+C:\Users\Facun\OneDrive - frsn.utn.edu.ar\Escritorio\Documentos\Proyectos\wstudioarg\W-Studio-Arg\obj\Debug\net6.0\W-Studio-Arg.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Facun\OneDrive - frsn.utn.edu.ar\Escritorio\Documentos\Proyectos\wstudioarg\W-Studio-Arg\obj\Debug\net6.0\W-Studio-Arg.AssemblyInfoInputs.cache
+C:\Users\Facun\OneDrive - frsn.utn.edu.ar\Escritorio\Documentos\Proyectos\wstudioarg\W-Studio-Arg\obj\Debug\net6.0\W-Studio-Arg.AssemblyInfo.cs
+C:\Users\Facun\OneDrive - frsn.utn.edu.ar\Escritorio\Documentos\Proyectos\wstudioarg\W-Studio-Arg\obj\Debug\net6.0\W-Studio-Arg.csproj.CoreCompileInputs.cache
+C:\Users\Facun\OneDrive - frsn.utn.edu.ar\Escritorio\Documentos\Proyectos\wstudioarg\W-Studio-Arg\obj\Debug\net6.0\W-Studio-Arg.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Facun\OneDrive - frsn.utn.edu.ar\Escritorio\Documentos\Proyectos\wstudioarg\W-Studio-Arg\obj\Debug\net6.0\W-Studio-Arg.RazorAssemblyInfo.cache
+C:\Users\Facun\OneDrive - frsn.utn.edu.ar\Escritorio\Documentos\Proyectos\wstudioarg\W-Studio-Arg\obj\Debug\net6.0\W-Studio-Arg.RazorAssemblyInfo.cs
+C:\Users\Facun\OneDrive - frsn.utn.edu.ar\Escritorio\Documentos\Proyectos\wstudioarg\W-Studio-Arg\obj\Debug\net6.0\W-Studio-Arg.sourcelink.json
+C:\Users\Facun\OneDrive - frsn.utn.edu.ar\Escritorio\Documentos\Proyectos\wstudioarg\W-Studio-Arg\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Facun\OneDrive - frsn.utn.edu.ar\Escritorio\Documentos\Proyectos\wstudioarg\W-Studio-Arg\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Facun\OneDrive - frsn.utn.edu.ar\Escritorio\Documentos\Proyectos\wstudioarg\W-Studio-Arg\obj\Debug\net6.0\staticwebassets\msbuild.W-Studio-Arg.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Facun\OneDrive - frsn.utn.edu.ar\Escritorio\Documentos\Proyectos\wstudioarg\W-Studio-Arg\obj\Debug\net6.0\staticwebassets\msbuild.build.W-Studio-Arg.props
+C:\Users\Facun\OneDrive - frsn.utn.edu.ar\Escritorio\Documentos\Proyectos\wstudioarg\W-Studio-Arg\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.W-Studio-Arg.props
+C:\Users\Facun\OneDrive - frsn.utn.edu.ar\Escritorio\Documentos\Proyectos\wstudioarg\W-Studio-Arg\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.W-Studio-Arg.props
+C:\Users\Facun\OneDrive - frsn.utn.edu.ar\Escritorio\Documentos\Proyectos\wstudioarg\W-Studio-Arg\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Facun\OneDrive - frsn.utn.edu.ar\Escritorio\Documentos\Proyectos\wstudioarg\W-Studio-Arg\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Facun\OneDrive - frsn.utn.edu.ar\Escritorio\Documentos\Proyectos\wstudioarg\W-Studio-Arg\obj\Debug\net6.0\scopedcss\bundle\W-Studio-Arg.styles.css
+C:\Users\Facun\OneDrive - frsn.utn.edu.ar\Escritorio\Documentos\Proyectos\wstudioarg\W-Studio-Arg\obj\Debug\net6.0\scopedcss\projectbundle\W-Studio-Arg.bundle.scp.css
+C:\Users\Facun\OneDrive - frsn.utn.edu.ar\Escritorio\Documentos\Proyectos\wstudioarg\W-Studio-Arg\obj\Debug\net6.0\W-Studio-Arg.dll
+C:\Users\Facun\OneDrive - frsn.utn.edu.ar\Escritorio\Documentos\Proyectos\wstudioarg\W-Studio-Arg\obj\Debug\net6.0\refint\W-Studio-Arg.dll
+C:\Users\Facun\OneDrive - frsn.utn.edu.ar\Escritorio\Documentos\Proyectos\wstudioarg\W-Studio-Arg\obj\Debug\net6.0\W-Studio-Arg.pdb
+C:\Users\Facun\OneDrive - frsn.utn.edu.ar\Escritorio\Documentos\Proyectos\wstudioarg\W-Studio-Arg\obj\Debug\net6.0\W-Studio-Arg.genruntimeconfig.cache
+C:\Users\Facun\OneDrive - frsn.utn.edu.ar\Escritorio\Documentos\Proyectos\wstudioarg\W-Studio-Arg\obj\Debug\net6.0\ref\W-Studio-Arg.dll
+C:\Users\Facun\OneDrive - frsn.utn.edu.ar\Escritorio\Documentos\Proyectos\wstudioarg\W-Studio-Arg\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Facun\OneDrive - frsn.utn.edu.ar\Escritorio\Documentos\Proyectos\wstudioarg\W-Studio-Arg\bin\Debug\net6.0\SendGrid.dll
+C:\Users\Facun\OneDrive - frsn.utn.edu.ar\Escritorio\Documentos\Proyectos\wstudioarg\W-Studio-Arg\bin\Debug\net6.0\StarkbankEcdsa.dll
+C:\Users\Facun\OneDrive - frsn.utn.edu.ar\Escritorio\Documentos\Proyectos\wstudioarg\W-Studio-Arg\obj\Debug\net6.0\W-Studio-Arg.csproj.AssemblyReference.cache
+C:\Users\Facun\OneDrive - frsn.utn.edu.ar\Escritorio\Documentos\Proyectos\wstudioarg\W-Studio-Arg\obj\Debug\net6.0\W-Studio.F26F3DB5.Up2Date

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Facun\\Proyectos\\WStudioArg\\W-Studio-Arg\\W-Studio-Arg\\W-Studio-Arg.csproj": {}
+    "C:\\Users\\Facun\\OneDrive - frsn.utn.edu.ar\\Escritorio\\Documentos\\Proyectos\\wstudioarg\\W-Studio-Arg\\W-Studio-Arg.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Facun\\Proyectos\\WStudioArg\\W-Studio-Arg\\W-Studio-Arg\\W-Studio-Arg.csproj": {
+    "C:\\Users\\Facun\\OneDrive - frsn.utn.edu.ar\\Escritorio\\Documentos\\Proyectos\\wstudioarg\\W-Studio-Arg\\W-Studio-Arg.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Facun\\Proyectos\\WStudioArg\\W-Studio-Arg\\W-Studio-Arg\\W-Studio-Arg.csproj",
+        "projectUniqueName": "C:\\Users\\Facun\\OneDrive - frsn.utn.edu.ar\\Escritorio\\Documentos\\Proyectos\\wstudioarg\\W-Studio-Arg\\W-Studio-Arg.csproj",
         "projectName": "W-Studio-Arg",
-        "projectPath": "C:\\Users\\Facun\\Proyectos\\WStudioArg\\W-Studio-Arg\\W-Studio-Arg\\W-Studio-Arg.csproj",
+        "projectPath": "C:\\Users\\Facun\\OneDrive - frsn.utn.edu.ar\\Escritorio\\Documentos\\Proyectos\\wstudioarg\\W-Studio-Arg\\W-Studio-Arg.csproj",
         "packagesPath": "C:\\Users\\Facun\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Facun\\Proyectos\\WStudioArg\\W-Studio-Arg\\W-Studio-Arg\\obj\\",
+        "outputPath": "C:\\Users\\Facun\\OneDrive - frsn.utn.edu.ar\\Escritorio\\Documentos\\Proyectos\\wstudioarg\\W-Studio-Arg\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Facun\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,6 +45,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "SendGrid": {
+              "target": "Package",
+              "version": "[9.29.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -55,6 +62,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.33, 6.0.33]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.33, 6.0.33]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.33, 6.0.33]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.33, 6.0.33]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -63,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

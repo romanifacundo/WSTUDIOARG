@@ -1,3 +1,4 @@
+using Portafolio.Servicios;
 using W_Studio_Arg.Servicios;
 using static W_Studio_Arg.Servicios.ServicioUnico;
 
@@ -5,8 +6,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddTransient<IRepositorioProyectos, RepositorioProyectos>();
 builder.Services.AddTransient<IRepositorioEmpresa, RepositorioEmpresa>();
+builder.Services.AddTransient<IServicioEmail, ServicioEmail>();
 
 // Test de servicios.
 //builder.Services.AddTransient<ServicioTransitorio>();

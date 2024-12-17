@@ -1,0 +1,9 @@
+# Ignorar la carpeta .vs (Visual Studio)
+.vs/
+
+# Ignorar los archivos de configuración con datos sensibles
+appsettings.json
+
+# Ignorar otros archivos comunes en proyectos .NET
+bin/
+obj/

@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Logging;
+using Portafolio.Servicios;
 using System.Diagnostics;
 using W_Studio_Arg.Models;
 using W_Studio_Arg.Servicios;
@@ -10,20 +11,19 @@ namespace W_Studio_Arg.Controllers
     {
         private readonly ILogger<HomeController> logger;
         private readonly IRepositorioEmpresa repositorioEmpresa;
-        private readonly IRepositorioProyectos repositorioProyectos;
-        private readonly IConfiguration configuration;
+        private readonly IServicioEmail _servicioEmail;
 
+        // Inyección de dependencias
         public HomeController(ILogger<HomeController> logger,
                               IRepositorioEmpresa repositorioEmpresa,
-                              IRepositorioProyectos repositorioProyectos,
-                              IConfiguration configuration)
+                              IServicioEmail servicioEmail)
         {
             this.logger = logger;
             this.repositorioEmpresa = repositorioEmpresa;
-            this.repositorioProyectos = repositorioProyectos;
-            //this.configuration = configuration;
+            this._servicioEmail = servicioEmail;
         }
 
+        // Acción para la página principal
         [HttpGet]
         public IActionResult Index()
         {
@@ -34,48 +34,50 @@ namespace W_Studio_Arg.Controllers
                 Nombre = nombreEmpresa
             };
 
-            var proyectos = repositorioProyectos.ObtenerProyecto().Take(3).ToList();
-
             var modelo = new HomeIndexViewModel()
             {
-                Proyectos = proyectos,
                 Nombre = empresa
             };
 
             return View(modelo);
         }
 
-        [HttpGet]
-        public IActionResult Proyectos()
-        {
-            var proyectos = repositorioProyectos.ObtenerProyecto();
-
-            return View(proyectos);
-        }
-
+        // Acción para la página de contacto
         [HttpGet]
         public IActionResult Contacto()
-        {   
-            return View(); 
-        }
-
-        [HttpPost]
-        public IActionResult Contacto(ContactoViewModel contactoViewModel)
-        {
-            return RedirectToAction("MensajeDeConfirmacionFormulario");
-        }
-
-        [HttpGet]
-        public IActionResult MensajeDeConfirmacionFormulario()
         {
             return View();
         }
 
+        // Acción para la confirmación del mensaje
+        [HttpGet]
+        public IActionResult Gracias()
+        {
+            return View();
+        }
+
+        // Acción para manejar los errores
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
+        // Acción para procesar el formulario de contacto
+        [HttpPost]
+        public async Task<IActionResult> Contacto(ContactoViewModel contactoViewModel)
+        {
+            if (ModelState.IsValid)
+            {
+                // Enviar el correo usando el servicio IServicioEmail
+                await _servicioEmail.Enviar(contactoViewModel);
+
+                // Redirigir a la página de agradecimiento
+                return RedirectToAction("Gracias");
+            }
+
+            // Si hay algún error en el formulario, volvemos a mostrar la página de contacto con los datos enviados
+            return View(contactoViewModel);
+        }
     }
 }
