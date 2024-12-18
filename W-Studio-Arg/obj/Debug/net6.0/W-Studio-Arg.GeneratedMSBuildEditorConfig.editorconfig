@@ -9,67 +9,67 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = W_Studio_Arg
 build_property.RootNamespace = W_Studio_Arg
-build_property.ProjectDir = C:\Users\Facun\OneDrive - frsn.utn.edu.ar\Escritorio\Documentos\Proyectos\wstudioarg\W-Studio-Arg\
+build_property.ProjectDir = C:\Users\Luciano\Desktop\sweb wstudio\WSTUDIOARG\W-Studio-Arg\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Facun\OneDrive - frsn.utn.edu.ar\Escritorio\Documentos\Proyectos\wstudioarg\W-Studio-Arg
+build_property.MSBuildProjectDirectory = C:\Users\Luciano\Desktop\sweb wstudio\WSTUDIOARG\W-Studio-Arg
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Facun/OneDrive - frsn.utn.edu.ar/Escritorio/Documentos/Proyectos/wstudioarg/W-Studio-Arg/Views/Home/Contacto.cshtml]
+[C:/Users/Luciano/Desktop/sweb wstudio/WSTUDIOARG/W-Studio-Arg/Views/Home/Contacto.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0by5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Facun/OneDrive - frsn.utn.edu.ar/Escritorio/Documentos/Proyectos/wstudioarg/W-Studio-Arg/Views/Home/Gracias.cshtml]
+[C:/Users/Luciano/Desktop/sweb wstudio/WSTUDIOARG/W-Studio-Arg/Views/Home/Gracias.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxHcmFjaWFzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Facun/OneDrive - frsn.utn.edu.ar/Escritorio/Documentos/Proyectos/wstudioarg/W-Studio-Arg/Views/Home/Index.cshtml]
+[C:/Users/Luciano/Desktop/sweb wstudio/WSTUDIOARG/W-Studio-Arg/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Facun/OneDrive - frsn.utn.edu.ar/Escritorio/Documentos/Proyectos/wstudioarg/W-Studio-Arg/Views/Home/MensajeDeConfirmacionFormulario.cshtml]
+[C:/Users/Luciano/Desktop/sweb wstudio/WSTUDIOARG/W-Studio-Arg/Views/Home/MensajeDeConfirmacionFormulario.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNZW5zYWplRGVDb25maXJtYWNpb25Gb3JtdWxhcmlvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Facun/OneDrive - frsn.utn.edu.ar/Escritorio/Documentos/Proyectos/wstudioarg/W-Studio-Arg/Views/Home/Proyectos.cshtml]
+[C:/Users/Luciano/Desktop/sweb wstudio/WSTUDIOARG/W-Studio-Arg/Views/Home/Proyectos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm95ZWN0b3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Facun/OneDrive - frsn.utn.edu.ar/Escritorio/Documentos/Proyectos/wstudioarg/W-Studio-Arg/Views/Home/_ListadoProyectos.cshtml]
+[C:/Users/Luciano/Desktop/sweb wstudio/WSTUDIOARG/W-Studio-Arg/Views/Home/_ListadoProyectos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfTGlzdGFkb1Byb3llY3Rvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Facun/OneDrive - frsn.utn.edu.ar/Escritorio/Documentos/Proyectos/wstudioarg/W-Studio-Arg/Views/Home/_PresentacionEmpresa.cshtml]
+[C:/Users/Luciano/Desktop/sweb wstudio/WSTUDIOARG/W-Studio-Arg/Views/Home/_PresentacionEmpresa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfUHJlc2VudGFjaW9uRW1wcmVzYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Facun/OneDrive - frsn.utn.edu.ar/Escritorio/Documentos/Proyectos/wstudioarg/W-Studio-Arg/Views/Home/_SeccionProyectos.cshtml]
+[C:/Users/Luciano/Desktop/sweb wstudio/WSTUDIOARG/W-Studio-Arg/Views/Home/_SeccionProyectos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfU2VjY2lvblByb3llY3Rvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Facun/OneDrive - frsn.utn.edu.ar/Escritorio/Documentos/Proyectos/wstudioarg/W-Studio-Arg/Views/Home/_Servicios.cshtml]
+[C:/Users/Luciano/Desktop/sweb wstudio/WSTUDIOARG/W-Studio-Arg/Views/Home/_Servicios.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfU2VydmljaW9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Facun/OneDrive - frsn.utn.edu.ar/Escritorio/Documentos/Proyectos/wstudioarg/W-Studio-Arg/Views/Shared/Error.cshtml]
+[C:/Users/Luciano/Desktop/sweb wstudio/WSTUDIOARG/W-Studio-Arg/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Facun/OneDrive - frsn.utn.edu.ar/Escritorio/Documentos/Proyectos/wstudioarg/W-Studio-Arg/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Luciano/Desktop/sweb wstudio/WSTUDIOARG/W-Studio-Arg/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Facun/OneDrive - frsn.utn.edu.ar/Escritorio/Documentos/Proyectos/wstudioarg/W-Studio-Arg/Views/_ViewImports.cshtml]
+[C:/Users/Luciano/Desktop/sweb wstudio/WSTUDIOARG/W-Studio-Arg/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Facun/OneDrive - frsn.utn.edu.ar/Escritorio/Documentos/Proyectos/wstudioarg/W-Studio-Arg/Views/_ViewStart.cshtml]
+[C:/Users/Luciano/Desktop/sweb wstudio/WSTUDIOARG/W-Studio-Arg/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Facun/OneDrive - frsn.utn.edu.ar/Escritorio/Documentos/Proyectos/wstudioarg/W-Studio-Arg/Views/Shared/_Layout.cshtml]
+[C:/Users/Luciano/Desktop/sweb wstudio/WSTUDIOARG/W-Studio-Arg/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-nphsf0tzyg

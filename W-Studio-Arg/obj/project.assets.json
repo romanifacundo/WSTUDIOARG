@@ -117,19 +117,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Facun\\.nuget\\packages\\": {}
+    "C:\\Users\\Luciano\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Facun\\OneDrive - frsn.utn.edu.ar\\Escritorio\\Documentos\\Proyectos\\wstudioarg\\W-Studio-Arg\\W-Studio-Arg.csproj",
+      "projectUniqueName": "C:\\Users\\Luciano\\Desktop\\sweb wstudio\\WSTUDIOARG\\W-Studio-Arg\\W-Studio-Arg.csproj",
       "projectName": "W-Studio-Arg",
-      "projectPath": "C:\\Users\\Facun\\OneDrive - frsn.utn.edu.ar\\Escritorio\\Documentos\\Proyectos\\wstudioarg\\W-Studio-Arg\\W-Studio-Arg.csproj",
-      "packagesPath": "C:\\Users\\Facun\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Facun\\OneDrive - frsn.utn.edu.ar\\Escritorio\\Documentos\\Proyectos\\wstudioarg\\W-Studio-Arg\\obj\\",
+      "projectPath": "C:\\Users\\Luciano\\Desktop\\sweb wstudio\\WSTUDIOARG\\W-Studio-Arg\\W-Studio-Arg.csproj",
+      "packagesPath": "C:\\Users\\Luciano\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Luciano\\Desktop\\sweb wstudio\\WSTUDIOARG\\W-Studio-Arg\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Facun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Luciano\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -137,7 +137,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -180,19 +179,19 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.33, 6.0.33]"
+            "version": "[6.0.28, 6.0.28]"
           },
           {
             "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[6.0.33, 6.0.33]"
+            "version": "[6.0.28, 6.0.28]"
           },
           {
             "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.33, 6.0.33]"
+            "version": "[6.0.28, 6.0.28]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.33, 6.0.33]"
+            "version": "[6.0.28, 6.0.28]"
           }
         ],
         "frameworkReferences": {
@@ -203,7 +202,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
