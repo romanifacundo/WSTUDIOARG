@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("W-Studio-Arg")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+19a6f73db9b969d742385b6a1f488c468cc2239a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6777b051eb3475cd369b5134c40480064ebc8f61")]
 [assembly: System.Reflection.AssemblyProductAttribute("W-Studio-Arg")]
 [assembly: System.Reflection.AssemblyTitleAttribute("W-Studio-Arg")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
