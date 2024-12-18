@@ -1,6 +1,5 @@
 using Portafolio.Servicios;
 using W_Studio_Arg.Servicios;
-using static W_Studio_Arg.Servicios.ServicioUnico;
 
 var builder = WebApplication.CreateBuilder(args);
 

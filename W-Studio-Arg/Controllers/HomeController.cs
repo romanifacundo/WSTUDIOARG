@@ -13,7 +13,6 @@ namespace W_Studio_Arg.Controllers
         private readonly IRepositorioEmpresa repositorioEmpresa;
         private readonly IServicioEmail _servicioEmail;
 
-        // Inyección de dependencias
         public HomeController(ILogger<HomeController> logger,
                               IRepositorioEmpresa repositorioEmpresa,
                               IServicioEmail servicioEmail)
