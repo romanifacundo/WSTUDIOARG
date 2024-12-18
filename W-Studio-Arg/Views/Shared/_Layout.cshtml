@@ -69,20 +69,38 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted  max-he py-4 mb-0">
-        <div class="container">
-            &copy; 2024 - W Studio Argentina - <a asp-area="" asp-controller="Home" asp-action="Privacy" class="text-black">Privacy</a>
+    <!-- Footer Modificado -->
+    <footer class="border-top footer text-white py-4 mb-0" style="background-color: #000;">
+        <div class="container text-center">
+            <div class="mb-3">
+                <!-- Íconos de Redes Sociales -->
+                <a href="https://www.linkedin.com" target="_blank" class="text-white me-3" style="font-size: 1.5rem;">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+                <a href="https://www.instagram.com" target="_blank" class="text-white me-3" style="font-size: 1.5rem;">
+                    <i class="fa fa-instagram"></i>
+                </a>
+                <a href="mailto:wstudio@gmail.com" class="text-white" style="font-size: 1.5rem;">
+                    <i class="fa fa-envelope"></i>
+                </a>
+            </div>
+            <!-- Copyright -->
+            <div>
+                &copy; 2024 - W Studio Argentina -
+                <a asp-area="" asp-controller="Home" asp-action="Privacy" class="text-white">Privacy</a>
+            </div>
         </div>
     </footer>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 
-
+    <!-- Botón flotante de WhatsApp -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <a href="https://api.whatsapp.com/send?phone=1234567891&text=Hola, me gustaria Obtener más información" class="float" target="_blank">
-        <i class="fa fa-whatsapp my-float "></i>
+        <i class="fa fa-whatsapp my-float"></i>
     </a>
 </body>
 </html>
