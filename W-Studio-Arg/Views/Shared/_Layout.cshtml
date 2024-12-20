@@ -44,7 +44,10 @@
     <header class="sticky-top">
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">W Studio Arg</a>
+                <!-- Logo integrado -->
+                <a class="navbar-brand d-flex align-items-center" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img src="~/img/logo.png" alt="Logo W Studio Arg" class="logo-img">
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -62,6 +65,28 @@
             </div>
         </nav>
     </header>
+
+    <style>
+        /* Ajusta el tamaño del logo */
+        .logo-img {
+            height: 150px; /* Ajusta la altura deseada */
+            width: auto; /* Mantén la proporción del logo */
+        }
+
+        /* Mantén la altura de la barra de navegación consistente */
+        .navbar-brand {
+            height: 50px; /* Define una altura específica */
+            display: flex;
+            align-items: center; /* Centra el logo verticalmente */
+        }
+
+        .navbar {
+            padding-top: 0; /* Ajusta los espacios en la barra */
+            padding-bottom: 0;
+        }
+    </style>
+
+
 
     <div class="container-fluid">
         <main role="main" class="pb-3">
