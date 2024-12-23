@@ -8,8 +8,30 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/W_Studio_Arg.styles.css" asp-append-version="true" />
 
+  
     <style>
 
+        /* Solución para eliminar espacios blancos debajo del footer */
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%; /* Asegura que ocupen toda la altura */
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100%; /* Cubre todo el espacio de la pantalla */
+        }
+
+        main {
+            flex: 1; /* Empuja el footer hacia el fondo */
+        }
+
+        footer {
+            margin-top: auto; /* Se posiciona al final */
+        }
+    
         .float {
             position: fixed;
             width: 60px;
